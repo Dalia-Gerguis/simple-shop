@@ -1,0 +1,30 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "My fantastic Nuxt.js project",
+  "author": "Dalia_Gerguis",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/auth-next": "5.0.0-1640716105.da0587d",
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.16.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "tailwindcss": "~0.6.6"
+  }
+}
