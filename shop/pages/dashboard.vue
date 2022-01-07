@@ -29,5 +29,6 @@
 export default {
   // middleware: ["auth", "verified"],
   layout: "appLayout",
+  middleware: 'auth'
 };
 </script>

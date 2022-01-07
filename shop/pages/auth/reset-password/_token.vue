@@ -84,6 +84,7 @@
 
 <script>
 export default {
+  middleware: 'logged',
   data: () => ({
     form: {
       email: "",
