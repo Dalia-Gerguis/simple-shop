@@ -15,7 +15,9 @@
   "dependencies": {
     "@nuxtjs/auth-next": "5.0.0-1640716105.da0587d",
     "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "cross-env": "^5.2.0",
+    "laravel-vue-pagination": "^2.3.1",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
